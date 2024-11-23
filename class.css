@@ -1,0 +1,43 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red{
+    background-color: rgb(251, 209, 209);
+    padding: 20px;
+    border-radius: 30px;
+}
+.div img{
+    margin-left: 20px;
+}
+.blue{
+    background-color: rgb(251, 209, 209);
+    padding: 20px;
+    border-radius: 30px;
+}
+.green{
+    background-color: rgb(251, 209, 209);
+    padding: 20px;
+    border-radius: 30px;
+}
+.divn p{
+    font-weight: bold;
+}
+.bu button{
+    background-color: green;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 30px;
+}
+.section{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 500px;
+    justify-content: space-around;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
